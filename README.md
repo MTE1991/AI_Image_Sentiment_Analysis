@@ -103,7 +103,7 @@ Performs comparative sentiment analysis on Reddit data using **two distinct mode
   - `distilbert_numeric_score`: Converted to continuous (-1, 0, +1)
 
 #### Tier 3: Aspect-Based Sentiment Analysis (ABSA)
-- **Aspect Taxonomy** (4 domains derived from literature review):
+- **Aspect Taxonomy**:
 
 | Aspect | Keywords | Focus |
 |--------|----------|-------|
@@ -172,7 +172,7 @@ Raw Instagram Data (2 CSVs)
 
 ## Academic Manuscript Relevance
 
-These scripts were designed to produce **camera-ready figures** for a research paper:
+These scripts were designed to produce **camera-ready figures**.
 - High DPI (300) output
 - Consistent color palettes (green=positive, gray=neutral, red=negative)
 - Professional typography (matplotlib rcParams configured)
